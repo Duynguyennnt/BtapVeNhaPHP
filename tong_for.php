@@ -29,10 +29,10 @@
 <td width="122">&nbsp;</td>
 <td width="76">Số bắt đầu</td>
 <td width="169"><label for="textfield"></label>
-<input type="text" name="so_dau" id="textfield" value=""/></td>
+    <input type="text" name="so_dau" id="textfield" value="<?php echo $_POST["so_dau"]; ?>"/></td>
 <td width="152">Số kết thúc</td>
 <td width="175"><label for="textfield2"></label>
-<input type="text" name="so_cuoi" id="textfield2" value=""/></td>
+<input type="text" name="so_cuoi" id="textfield2" value="<?php echo $_POST["so_cuoi"] ?>"/></td>
 </tr>
 <tr>
 <td colspan="5">Kết quả
